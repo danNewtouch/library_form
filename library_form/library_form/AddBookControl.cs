@@ -32,7 +32,7 @@ namespace library_form
         {
             if(BookName.Text != ""&&Writter.Text != ""&&Page.Text !=""&&PublishCompany.Text!="")
             {
-                OnTimeEventFuntion(BookName.Text, Writter.Text, DateTimePicker.Value.ToString("yyyy-MM-dd"), PublishCompany.Text, Page.Text);
+                OnTimeEventFuntion(BookName.Text, Writter.Text, DateTimePicker.Value.ToString("yyyy-MM-dd:hh:ss"), PublishCompany.Text, Page.Text);
                 BookName.Clear();
                 Writter.Clear();
                 PublishCompany.Clear();
