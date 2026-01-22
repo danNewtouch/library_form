@@ -86,7 +86,7 @@ namespace library_form
                 }
                 else if (i == remineder.Count - 1)
                 {
-                    MessageBox.Show("此书不存在！");
+                    MessageBox.Show("この本は存在しません");
                     break;
                 }
             }
