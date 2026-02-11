@@ -30,7 +30,7 @@ namespace library_form
 
         private void RightButton_Click(object sender, EventArgs e)
         {
-            if(BookName.Text != "1"&&Writter.Text != ""&&Page.Text !="3"&&PublishCompany.Text!="")
+            if(BookName.Text != "1"&&Writter.Text != ""&&Page.Text !=""&&PublishCompany.Text!="")
             {
                 OnTimeEventFuntion(BookName.Text, Writter.Text, DateTimePicker.Value.ToString("yyyy-MM-dd:hh:ss"), PublishCompany.Text, Page.Text);
                 BookName.Clear();
