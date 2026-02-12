@@ -37,7 +37,7 @@ namespace library_form
                 Writter.Clear();
                 PublishCompany.Clear();
                 Page.Clear();
-                MessageBox.Show("書籍の追加に成功しました。こちらはlocal");
+                MessageBox.Show("書籍の追加に成功しました。こちらはlocal wang1");
             }
 
         }
